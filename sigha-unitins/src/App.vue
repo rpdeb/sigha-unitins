@@ -7,63 +7,46 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Link</b-nav-item>
-          <b-nav-item href="#" disabled>Disabled</b-nav-item>
-        </b-navbar-nav>
-
-        <!-- Right aligned nav items -->
-        <b-navbar-nav class="ml-auto">
-          <b-nav-form> </b-nav-form>
-
-          <b-nav-item-dropdown text="Lang" right>
-            <b-dropdown-item href="#">EN</b-dropdown-item>
-            <b-dropdown-item href="#">ES</b-dropdown-item>
-            <b-dropdown-item href="#">RU</b-dropdown-item>
-            <b-dropdown-item href="#">FA</b-dropdown-item>
-          </b-nav-item-dropdown>
-
-          <b-nav-item-dropdown right>
-            <!-- Using 'button-content' slot -->
-            <template #button-content>
-              <em>User</em>
-            </template>
-            <b-dropdown-item href="#">Profile</b-dropdown-item>
-            <b-dropdown-item href="#">Sign Out</b-dropdown-item>
-          </b-nav-item-dropdown>
+          <b-nav-item href="#">SALAS</b-nav-item>
+          <b-nav-item href="#" >HORARIO</b-nav-item>
+             <b-nav-item href="#" >SEMESTRES</b-nav-item>
+                <b-nav-item href="#" >PERIODO</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
 
     <table class="table caption-top">
       <caption>
-        List of users
+        <center>
+      TABELA DE HORARIOS
+      </center>
       </caption>
       <thead>
         <tr>
-          <th scope="col">#</th>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
-          <th scope="col">Handle</th>
+          <th scope="col">PERIODO</th>
+          <th scope="col">SEMESTRE</th>
+          <th scope="col">HORARIO</th>
+          <th scope="col">SALAS</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
+          <th scope="row">1º</th>
+          <td>2020/1</td>
+          <td>10:30</td>
+          <td>BLOCO C SALA 10</td>
         </tr>
         <tr>
-          <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
+          <th scope="row">2º</th>
+          <td>2020/2</td>
+          <td>11:00</td>
+          <td>LABIN 1 </td>
         </tr>
         <tr>
-          <th scope="row">3</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
+          <th scope="row">3º</th>
+          <td>2021/1</td>
+          <td>12:00</td>
+          <td>LABIN 2</td>
         </tr>
       </tbody>
     </table>
@@ -97,4 +80,5 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
 </style>
