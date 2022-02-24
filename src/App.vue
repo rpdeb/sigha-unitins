@@ -9,7 +9,7 @@
         <b-navbar-nav>
           <b-nav-item href="#">SALAS</b-nav-item>
           <b-nav-item href="#" >HORARIO</b-nav-item>
-             <b-nav-item href="#" >SEMESTRES</b-nav-item>
+             <b-nav-item href="Semestre.vue" >SEMESTRES</b-nav-item>
                 <b-nav-item href="#" >PERIODO</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
